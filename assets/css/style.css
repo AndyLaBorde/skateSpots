@@ -1,0 +1,104 @@
+/**{
+	border: 1px solid red;
+}*/
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background: #E5E4E2;
+}
+p{
+	color: red;
+}
+#map{
+	width: 98%;
+	height: 100%;
+	margin: 0, auto;
+}
+#spots{
+	display: none;
+}
+#spots_hidden{
+	display: none;
+}
+.container-fluid{
+	height: 100%;
+}
+.map_row{
+	height: 75%;
+}
+.map_div{
+	height: 100%;
+}
+select.form-control{
+	width: 45px;
+	display: inline-block
+}
+button#add_spot_btn{
+	float:right;
+	width: 50%;
+}
+form{
+	margin-right: 2%;
+}
+.jumbotron h6{
+	display: inline-block;
+}
+	.jumbotron h1{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.jumbotron p{
+		color: red;
+		font-size: 1em;
+	}
+h1#banner{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+div#search_div{
+	height: 34px;
+}
+p.success{
+	color: green;
+}
+a#log_off{
+	float: right;
+	margin-right: 8%;
+}
+a#profile{
+	margin-top: 30px;
+}
+div.header_links{
+	height: 69px;
+	padding-top: 30px;
+}
+p.map_p{
+	color: black;
+}
+.spot_info{
+	color: black;
+}
+p.comment{
+	color: black;
+	margin-left: 5%;
+}
+.spot_title{
+	display: inline-block;
+}
+#carousel img{
+	max-height: 500px;
+	max-width: 100%;
+}
+#ajax{
+	margin-bottom: 20px;
+}
+textarea{
+	max-height: 150px;
+	max-width: 100%;
+}
+button#comment_btn{
+	float: right;
+	margin-top: 5px;
+}
