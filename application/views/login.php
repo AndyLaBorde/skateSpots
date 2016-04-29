@@ -46,16 +46,6 @@
 	</script>
 </head>
 <body>
-<?php 
-	require_once 'vendor/autoload.php';
-	$fb = new Facebook\Facebook ([
-		'app_id' => '262275047452139',
-		'app_secret' => 'c26ad5790b9ee6a601e990fa9ff8c13a',
-		'default_graph_version' => 'v2.5',
-		]);
-?>
-	<script>
-</script>
 	<div class="container">
 		<div class="jumbotron">
 			<h1 class="text-center">skateSpots</h1>
